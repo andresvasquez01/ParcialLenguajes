@@ -29,3 +29,20 @@
 Resultado:
 Si la entrada es válida, imprimirá ACEPTA.
 Si encuentra errores en la entrada, imprimirá NO ACEPTA.
+
+**##El tercer punto se encuntra fuera de las carpetas**
+
+Compilar el programa:
+gcc textoR.c -o textoR
+
+Crear el archivo de texto: Asegúrate de tener el archivo archivo.txt con el contenido:
+El arroz es un ingrediente versátil. Me gusta preparar arroz blanco, arroz con pollo y arroz con verduras. Cada comida con arroz es deliciosa. No puedo imaginar mi cocina sin arroz.
+
+Ejecutar el programa: Usa el siguiente comando para ejecutar el programa y buscar cuántas veces aparece la palabra "arroz" en el archivo archivo.txt:
+./textoR archivo.txt arroz
+
+Resultado:
+El programa leerá el archivo archivo.txt y mostrará cuántas veces se repite la palabra "arroz".
+
+**##El cuarto punto se encuntra fuera de las carpetas**
+

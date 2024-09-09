@@ -1,6 +1,7 @@
 **# ParcialLenguajes**
 
 **##El primer punto se encuntra fuera de las carpetas**
+  
   1. Navegar al directorio donde están los archivos
   Primero, usa el comando cd para ir al directorio donde están token.awk y tokens.txt. Por ejemplo, si los archivos están en una carpeta llamada scripts en tu directorio personal:
   cd ~/scripts
@@ -14,6 +15,7 @@
   ./token.awk tokens.txt
 
 **##El segundo punto se encuntra fuera de las carpetas**
+  
   Generar el archivo C a partir del archivo .l:
   flex lambda.l
   Esto generará el archivo lex.yy.c.

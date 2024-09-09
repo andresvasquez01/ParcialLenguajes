@@ -46,3 +46,16 @@ El programa leerá el archivo archivo.txt y mostrará cuántas veces se repite l
 
 **##El cuarto punto se encuntra fuera de las carpetas**
 
+Compilar el archivo en C: En la terminal, ejecuta el siguiente comando para compilar el programa en C:
+gcc times.c -o times
+
+Ejecutar el programa en C: Una vez compilado, ejecuta el programa:
+./times
+
+Este comando mostrará la suma y el tiempo de ejecución en C.
+
+2. Ejecutar el programa en Python (timepython.py):
+Ejecutar el archivo Python: Para correr el programa en Python, usa el siguiente comando:
+python3 timepython.py
+
+Este comando imprimirá la suma y el tiempo de ejecución en Python.

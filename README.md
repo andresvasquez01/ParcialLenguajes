@@ -2,6 +2,7 @@
 ---------------------------------------------------------
 **##El primer punto se encuntra fuera de las carpetas**
 ---------------------------------------------------------
+ 
   Navegar al directorio donde están los archivos
   Primero, usa el comando cd para ir al directorio donde están token.awk y tokens.txt. Por ejemplo, si los archivos están en una carpeta llamada scripts en tu directorio personal:
   cd ~/scripts
@@ -13,9 +14,11 @@
   Ejecutar el script
   Una vez estés en el directorio correcto, ejecuta el script con el archivo tokens.txt:
   ./token.awk tokens.txt
+  
 ---------------------------------------------------------
 **##El segundo punto se encuntra fuera de las carpetas**
  --------------------------------------------------------
+ 
   Generar el archivo C a partir del archivo .l:
   flex lambda.l
   Esto generará el archivo lex.yy.c.
@@ -29,9 +32,11 @@
 Resultado:
 Si la entrada es válida, imprimirá ACEPTA.
 Si encuentra errores en la entrada, imprimirá NO ACEPTA.
+
 --------------------------------------------------------
 **##El tercer punto se encuntra fuera de las carpetas**
 --------------------------------------------------------
+
 Compilar el programa:
 gcc textoR.c -o textoR
 
@@ -43,9 +48,11 @@ Ejecutar el programa: Usa el siguiente comando para ejecutar el programa y busca
 
 Resultado:
 El programa leerá el archivo archivo.txt y mostrará cuántas veces se repite la palabra "arroz".
+
 -----------------------------------------------------------
 **##El cuarto punto se encuntra fuera de las carpetas**
 -----------------------------------------------------------
+
 Compilar el archivo en C: En la terminal, ejecuta el siguiente comando para compilar el programa en C:
 gcc times.c -o times
 
